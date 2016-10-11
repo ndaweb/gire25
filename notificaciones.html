@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" style="height:100%;">
+    <head id="head01"></head>
+    <body data-spy="scroll" data-target="nav">
+      <div id="page">
+        <header id="header-2" class="soft-scroll header-2"></header>
+        <div class="container" id="contenido">
+          <div id="pagina"></div>
+        </div>
+        <footer class="footer01"></footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="js/bskit-scripts.js"></script>
+        <script>
+          $("#head01").load("includes/headerp.html");
+          $("#header-2").load("includes/nav.html");
+          $("#pagina").load("pages/notificaciones.html");
+          $(".footer01").load("includes/footer.html");
+
+        </script>
+      </div>
+
+    </body>
+</html>

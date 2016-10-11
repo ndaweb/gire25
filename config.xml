@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.gire25.myapp"
+        versionCode = "1"
+        version     = "1.0.1" >
+
+
+
+    <!-- versionCode is Android only -->
+    <!-- version is in major.minor.patch format -->
+    <name>Gire25</name>
+
+    <description>
+        App de Gire 25.
+    </description>
+
+    <author href="http://gire35.com.ar" email="yourEmail@goesHere.com">
+        Estudio Cosa
+    </author>
+
+    <!-- Don't block any requests -->
+<access origin="*" />
+
+<platform name="ios" />
+<platform name="android" />
+<platform name="winphone" />
+
+
+<plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
+<plugin name="com.candygram.media" spec="0.0.3" source="pgb" />
+
+<platform name="android">
+              <icon src="res/android/mipmap-ldpi/ic_launcher.png" density="ldpi" />
+              <icon src="res/android/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+              <icon src="res/android/mipmap-hdpi/ic_launcher.png" density="hdpi" />
+              <icon src="res/android/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
+</platform>
+
+<preference name="android-build-tool" value="ant" />
+
+
+</widget>
+
